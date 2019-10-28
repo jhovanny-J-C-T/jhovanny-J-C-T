@@ -1,0 +1,262 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.ooo{
+	color:white;
+	font-family: valentine;
+}
+h1{
+	background-image: radial-gradient(circle, #940939, #91004c, #850061, #6f0078, #46188e);
+}
+.imag{
+	width: 100%;
+	max-width: 280px;
+	padding: 15px;
+	border-radius: 50px;
+}
+ .img1{
+ 	border-radius: 20px;
+ }
+ .video{
+	border-radius: 	20px;
+	width: 	80%;
+	height: 80%;
+}
+ p{
+ 	background-color: #F1EBC9;
+	text-align: justify-all;
+	margin-bottom: 20px;
+	background: rgba(255,255,255,0.4);
+ 	text-align: justify;
+	font-size: auto;
+	border-right: 50px;
+	padding: 50px;
+	size: 50px;
+
+	width: 80%;
+	margin: 0 auto;
+	padding: 0 20px 20px 20px;
+}
+body {
+	font-size: 20px;
+	background-image: radial-gradient(circle, #aa1414, #aa0034, #9d0054, #7d0074, #3d0b90);
+	font-family: 'Open Sans', 'Segoe UI', Tahoma,
+		Geneva, Verdana, sans-serif; 
+}
+table,th,td{
+	border: 2px solid blue;
+	border-collapse: collapse;
+}
+table{
+	width:80%;
+	background-image: linear-gradient(to bottom, #a40a39, #a0054c, #98115f, #8b1f70, #792c7e, #772b7c, #762b79, #742a77, #801d65, #870f52, #89073e, #870b2b);
+	color:black;
+ }
+.menu_bar {
+	display:none;
+}
+ 
+header {
+	width: 100%;
+}
+ 
+header nav {
+	background-image: radial-gradient(circle, #e31d37, #d10053, #b1006c, #83007f, #431689);
+	z-index:1000;
+	max-width: 1000px;
+	width:95%;
+	margin:20px auto;
+	font-size: 15px;
+	margin: 10px 80px 10px 100px;
+}
+header nav ul {
+	list-style:none;
+}
+ 
+header nav ul li {
+	display:inline-block;
+	position: relative;
+}
+ 
+header nav ul li:hover {
+	background-image: radial-gradient(circle, #1d2ee3, #6951e5, #9274e8, #b399e9, #cfbeeb);
+}
+ 
+header nav ul li a {
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	padding: 20px;
+}
+ 
+header nav ul li a span {
+	margin-right:10px;
+}
+ 
+header nav ul li:hover .children {
+	display:block;
+}
+ 
+header nav ul li .children {
+	display: none;
+	background:#011826;
+	position: absolute;
+	width: 150%;
+	z-index:1000;
+}
+ 
+header nav ul li .children li {
+	display:block;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+ 
+header nav ul li .children li a {
+	display: block;
+}
+ 
+header nav ul li .children li a span {
+	float: right;
+	position: relative;
+	top:3px;
+	margin-right:0;
+	margin-left:10px;
+}
+ 
+header nav ul li .caret {
+	position: relative;
+	top:3px;
+	margin-left:10px;
+	margin-right:0px;
+}
+form{
+	width: 450px;
+	margin:auto;
+	background: linear-gradient(to top left, #cc0000 6%, #0033cc 100%);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+}
+ input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 17px;
+
+}
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+	min-width: 100%;
+}
+.que{
+	color:black;
+}
+#boton{
+	background-color: #1E3761;
+	color:#fff;
+	padding: 20px;
+}
+#boton2{
+	background-color: #409F42;
+	color:#fff;
+	padding: 20px;
+}
+.ref{
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 0px 20px 20px 20px;
+}
+.nel{
+	color:red;
+}
+.o{
+	border-radius: 100px;
+	float: center;
+	box-sizing: border-box;
+	margin-top: 20px;
+
+}
+.hola{
+	color:white;
+}
+@media screen and (max-width: 800px) {
+	body {
+		padding-top:80px;
+	}
+	form{
+		width:80%;
+	}
+	.ooo{
+		display:none;
+	}
+ 	.img1{
+ 		padding-top:10px;
+ 		width: 80%;
+ 	}
+	.menu_bar {
+		display:block;
+		width:100%;
+		position: fixed;
+		top:0;
+		background-image: radial-gradient(circle, #871432, #7b0340, #6a044d, #520f57, #30185e);
+	}
+ 
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 20px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+ 
+	.menu_bar span {
+		float: right;
+		font-size: 40px;
+	}
+ 
+	header nav {
+		width: 100%;
+		height: calc(100% - 80px);
+		position: fixed;
+		right:100%;
+		margin: 0;
+		overflow: scroll;
+	}
+ 
+	header nav ul li {
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+ 
+	header nav ul li a {
+		display: block;
+	}
+ 
+	header nav ul li:hover .children {
+		display: none;
+	}
+ 
+	header nav ul li .children {
+		width: 100%;
+		position: relative;
+	}
+ 
+	header nav ul li .children li a {
+		margin-left:20px;
+	}
+ 
+	header nav ul li .caret {
+		float: right;
+	}
+}
